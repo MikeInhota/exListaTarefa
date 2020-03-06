@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Registro</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    
+
 </head>
+
 <body>
 
     <h1>Registro de tarefas</h1>
 
-<main>
-    <section class="box1">
-    <input id="entrada" type="text" value="Digite a tarefa aqui">
-    <button id="botao" onclick="registrar()">Registrar Tarefa</button>
-    </section>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <section class="box2">
-        <h3>Suas tarefas!!!</h3>
-        <table id="tabela" align="center">
-            <thead>
-                <tr>
-                    <td>
-                        <input type="checkbox"> </td>
-                    <td> 
-                        <p>Aqui aparecem as tarefas listadas.</p>
-                    </td>
-                </tr>
-            </thead>
-            <tbody id="tabela-corpo" name="tabela-corpo">
+    <main>
+        <section class="box1">
 
-            </tbody>
-        </table>
-    </section>
-</main>
+            <input type="text" id="entrada" value="Tarefa aqui.">
+            <button id="botao" onclick="registrar()">Registrar Tarefa</button>
 
-<script src="main.js"></script>
+        </section>
+        </br>
+        <section class="box2">
+            <h3>Suas tarefas!!!</h3>
+            <table id="tabela" align="center">
+                <thead>
+                    <tr>
+                        <td>
+                            <p>Checagem</p>
+                        </td>
+                        <td>
+                            <p>Aqui aparecem as tarefas listadas.</p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody id="tabelaCorpo" name="tabelaCorpo">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
 </body>
+<script src="main.js"></script>
+
 </html>

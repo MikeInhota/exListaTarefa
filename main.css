@@ -1,11 +1,17 @@
-.box1, .box2{
+.box1,
+.box2 {
     text-align: center
 }
- h1{
-     text-align: center
- }
 
-#tabela{
+h1 {
     text-align: center;
-    border: black;
+    margin: 20px;
+}
+
+td {
+    border: 1px solid black;
+}
+
+section {
+    margin-bottom: 50px;
 }
